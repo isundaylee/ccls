@@ -16,7 +16,7 @@ limitations under the License.
 #pragma once
 
 #include "lsp.hh"
-#include "query.h"
+#include "query.hh"
 
 #include <functional>
 #include <memory>

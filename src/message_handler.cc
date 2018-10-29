@@ -16,10 +16,10 @@ limitations under the License.
 #include "message_handler.hh"
 
 #include "log.hh"
-#include "match.h"
+#include "match.hh"
 #include "pipeline.hh"
 #include "project.hh"
-#include "query_utils.h"
+#include "query_utils.hh"
 #include "serializers/json.h"
 
 using namespace clang;

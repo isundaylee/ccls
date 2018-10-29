@@ -14,11 +14,11 @@ limitations under the License.
 ==============================================================================*/
 
 #include "clang_complete.hh"
-#include "include_complete.h"
+#include "include_complete.hh"
 #include "message_handler.hh"
 #include "pipeline.hh"
 #include "project.hh"
-#include "working_files.h"
+#include "working_files.hh"
 
 namespace ccls {
 void MessageHandler::textDocument_didChange(TextDocumentDidChangeParam &param) {

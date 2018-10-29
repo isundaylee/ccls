@@ -16,16 +16,16 @@ limitations under the License.
 #include "pipeline.hh"
 
 #include "clang_complete.hh"
-#include "config.h"
-#include "include_complete.h"
+#include "config.hh"
+#include "include_complete.hh"
 #include "log.hh"
 #include "lsp.hh"
-#include "match.h"
+#include "match.hh"
 #include "message_handler.hh"
 #include "pipeline.hh"
-#include "platform.h"
+#include "platform.hh"
 #include "project.hh"
-#include "query_utils.h"
+#include "query_utils.hh"
 #include "serializers/json.h"
 
 #include <rapidjson/document.h>

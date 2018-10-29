@@ -16,7 +16,7 @@ limitations under the License.
 #include "serializer.hh"
 
 #include "filesystem.hh"
-#include "indexer.h"
+#include "indexer.hh"
 #include "log.hh"
 #include "serializers/binary.h"
 #include "serializers/json.h"

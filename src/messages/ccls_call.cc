@@ -16,7 +16,7 @@ limitations under the License.
 #include "hierarchy.hh"
 #include "message_handler.hh"
 #include "pipeline.hh"
-#include "query_utils.h"
+#include "query_utils.hh"
 
 #include <unordered_set>
 

@@ -16,8 +16,8 @@ limitations under the License.
 #include "message_handler.hh"
 #include "pipeline.hh"
 #include "project.hh"
-#include "query_utils.h"
-#include "working_files.h"
+#include "query_utils.hh"
+#include "working_files.hh"
 
 namespace ccls {
 namespace {

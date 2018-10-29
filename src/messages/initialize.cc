@@ -15,14 +15,14 @@ limitations under the License.
 
 #include "clang_complete.hh"
 #include "filesystem.hh"
-#include "include_complete.h"
+#include "include_complete.hh"
 #include "log.hh"
 #include "message_handler.hh"
 #include "pipeline.hh"
-#include "platform.h"
+#include "platform.hh"
 #include "project.hh"
 #include "serializers/json.h"
-#include "working_files.h"
+#include "working_files.hh"
 
 #include <llvm/ADT/Twine.h>
 #include <llvm/Support/Threading.h>

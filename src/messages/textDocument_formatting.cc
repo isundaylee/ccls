@@ -15,7 +15,7 @@ limitations under the License.
 
 #include "message_handler.hh"
 #include "pipeline.hh"
-#include "working_files.h"
+#include "working_files.hh"
 
 #include <clang/Format/Format.h>
 #include <clang/Tooling/Core/Replacement.h>

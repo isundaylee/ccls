@@ -16,11 +16,11 @@ limitations under the License.
 #pragma once
 
 #include "clang_tu.hh"
-#include "lru_cache.h"
+#include "lru_cache.hh"
 #include "lsp.hh"
 #include "project.hh"
-#include "threaded_queue.h"
-#include "working_files.h"
+#include "threaded_queue.hh"
+#include "working_files.hh"
 
 #include <clang/Frontend/CompilerInstance.h>
 #include <clang/Frontend/FrontendActions.h>

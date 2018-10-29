@@ -18,8 +18,8 @@ limitations under the License.
 #include "clang_tu.hh"
 #include "filesystem.hh"
 #include "log.hh"
-#include "match.h"
-#include "platform.h"
+#include "match.hh"
+#include "platform.hh"
 
 #include <clang/Lex/PreprocessorOptions.h>
 #include <clang/Sema/CodeCompleteConsumer.h>

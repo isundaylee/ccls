@@ -14,12 +14,12 @@ limitations under the License.
 ==============================================================================*/
 
 #include "clang_complete.hh"
-#include "fuzzy_match.h"
+#include "fuzzy_match.hh"
 #include "log.hh"
 #include "message_handler.hh"
 #include "pipeline.hh"
 #include "project.hh"
-#include "query_utils.h"
+#include "query_utils.hh"
 
 #include <llvm/ADT/STLExtras.h>
 

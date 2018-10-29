@@ -14,12 +14,12 @@ limitations under the License.
 ==============================================================================*/
 
 #include "clang_complete.hh"
-#include "fuzzy_match.h"
-#include "include_complete.h"
+#include "fuzzy_match.hh"
+#include "include_complete.hh"
 #include "log.hh"
 #include "message_handler.hh"
 #include "pipeline.hh"
-#include "working_files.h"
+#include "working_files.hh"
 
 #include <clang/Sema/CodeCompleteConsumer.h>
 #include <clang/Sema/Sema.h>
