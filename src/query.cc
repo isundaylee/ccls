@@ -17,7 +17,7 @@ limitations under the License.
 
 #include "indexer.hh"
 #include "serializer.hh"
-#include "serializers/json.h"
+#include "serializers/json.hh"
 
 #include <cassert>
 #include <cstdint>

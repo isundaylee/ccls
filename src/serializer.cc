@@ -18,8 +18,8 @@ limitations under the License.
 #include "filesystem.hh"
 #include "indexer.hh"
 #include "log.hh"
-#include "serializers/binary.h"
-#include "serializers/json.h"
+#include "serializers/binary.hh"
+#include "serializers/json.hh"
 
 #include <llvm/ADT/CachedHashString.h>
 #include <llvm/ADT/DenseSet.h>

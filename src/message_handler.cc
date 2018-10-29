@@ -20,7 +20,7 @@ limitations under the License.
 #include "pipeline.hh"
 #include "project.hh"
 #include "query_utils.hh"
-#include "serializers/json.h"
+#include "serializers/json.hh"
 
 using namespace clang;
 

@@ -26,7 +26,7 @@ limitations under the License.
 #include "platform.hh"
 #include "project.hh"
 #include "query_utils.hh"
-#include "serializers/json.h"
+#include "serializers/json.hh"
 
 #include <rapidjson/document.h>
 #include <rapidjson/writer.h>

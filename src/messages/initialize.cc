@@ -21,7 +21,7 @@ limitations under the License.
 #include "pipeline.hh"
 #include "platform.hh"
 #include "project.hh"
-#include "serializers/json.h"
+#include "serializers/json.hh"
 #include "working_files.hh"
 
 #include <llvm/ADT/Twine.h>

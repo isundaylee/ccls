@@ -20,7 +20,7 @@ limitations under the License.
 #include "match.hh"
 #include "pipeline.hh"
 #include "platform.hh"
-#include "serializers/json.h"
+#include "serializers/json.hh"
 #include "utils.hh"
 #include "working_files.hh"
 

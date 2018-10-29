@@ -16,7 +16,7 @@ limitations under the License.
 #include "message_handler.hh"
 #include "pipeline.hh"
 #include "query_utils.hh"
-#include "serializers/json.h"
+#include "serializers/json.hh"
 
 #include <llvm/Support/FormatVariadic.h>
 

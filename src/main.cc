@@ -17,7 +17,7 @@ limitations under the License.
 #include "pipeline.hh"
 #include "platform.hh"
 #include "serializer.hh"
-#include "serializers/json.h"
+#include "serializers/json.hh"
 #include "test.hh"
 #include "working_files.hh"
 
