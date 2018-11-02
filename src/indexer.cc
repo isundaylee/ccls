@@ -732,8 +732,14 @@ public:
 
     // spell, extent, comments use OrigD while most others use adjusted |D|.
     const Decl *OrigD = ASTNode.OrigD;
-    const DeclContext *SemDC = OrigD->getDeclContext()->getRedeclContext();
-    const DeclContext *LexDC = ASTNode.ContainerDC->getRedeclContext();
+    const bool isEnumConstant = (OrigD->getKind() == Decl::Kind::EnumConstant);
+    const DeclContext *SemDC = isEnumConstant
+      ? OrigD->getDeclContext()
+      : OrigD->getDeclContext()->getRedeclContext();
+    const DeclContext *LexDC = isEnumConstant
+      ? ASTNode.ContainerDC
+      : ASTNode.ContainerDC->getRedeclContext();
+
     {
       const NamespaceDecl *ND;
       while ((ND = dyn_cast<NamespaceDecl>(cast<Decl>(SemDC))) &&
