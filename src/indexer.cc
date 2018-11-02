@@ -862,6 +862,8 @@ public:
         const Decl *DC = cast<Decl>(SemDC);
         if (GetSymbolKind(DC, ls_kind) == SymbolKind::Func)
           db->ToFunc(GetUsr(DC)).def.vars.push_back(usr);
+        else if (GetSymbolKind(DC, ls_kind) == SymbolKind::Type)
+          db->ToType(GetUsr(DC)).def.vars.emplace_back(usr, -1);
         else if (auto *ND = dyn_cast<NamespaceDecl>(SemDC))
           db->ToType(GetUsr(ND)).def.vars.emplace_back(usr, -1);
         if (!T.isNull()) {
